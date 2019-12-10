@@ -85,39 +85,39 @@ class MainClass
 	{
 		Student stu1,stu2,stu3;
 		
-		stu1=new Student("ÕÅÎŞ¼É","ÄĞ",24,"Èí¼ş¹¤³Ì","Èí¼şÑ§Ôº","ÖĞÄÏ´óÑ§"); //×´Ì¬ÏàËÆ
+		stu1=new Student("å¼ æ— å¿Œ","ç”·",24,"è½¯ä»¶å·¥ç¨‹","è½¯ä»¶å­¦é™¢","ä¸­å—å¤§å­¦"); //çŠ¶æ€ç›¸ä¼¼
 		
-		//Ê¹ÓÃÔ­ĞÍÄ£Ê½
+		//ä½¿ç”¨åŸå‹æ¨¡å¼
 		stu2=stu1.clone();
-		stu2.setStuName("Ñî¹ı");
+		stu2.setStuName("æ¨è¿‡");
 		
-		//Ê¹ÓÃÔ­ĞÍÄ£Ê½
+		//ä½¿ç”¨åŸå‹æ¨¡å¼
 		stu3=stu1.clone();
-		stu3.setStuName("Ğ¡ÁúÅ®");
-		stu3.setStuSex("Å®");		
+		stu3.setStuName("å°é¾™å¥³");
+		stu3.setStuSex("å¥³");		
 		
-		System.out.print("ĞÕÃû£º" + stu1.getStuName());
-		System.out.print("£¬ĞÔ±ğ£º" + stu1.getStuSex());
-		System.out.print("£¬ÄêÁä£º" + stu1.getStuAge());
-		System.out.print("£¬×¨Òµ£º" + stu1.getStuMajor());
-		System.out.print("£¬Ñ§Ôº£º" + stu1.getStuCollege());
-		System.out.print("£¬Ñ§Ğ££º" + stu1.getStuUniversity());
+		System.out.print("å§“åï¼š" + stu1.getStuName());
+		System.out.print("ï¼Œæ€§åˆ«ï¼š" + stu1.getStuSex());
+		System.out.print("ï¼Œå¹´é¾„ï¼š" + stu1.getStuAge());
+		System.out.print("ï¼Œä¸“ä¸šï¼š" + stu1.getStuMajor());
+		System.out.print("ï¼Œå­¦é™¢ï¼š" + stu1.getStuCollege());
+		System.out.print("ï¼Œå­¦æ ¡ï¼š" + stu1.getStuUniversity());
 		System.out.println();
 		
-		System.out.print("ĞÕÃû£º" + stu2.getStuName());
-		System.out.print("£¬ĞÔ±ğ£º" + stu2.getStuSex());
-		System.out.print("£¬ÄêÁä£º" + stu2.getStuAge());
-		System.out.print("£¬×¨Òµ£º" + stu2.getStuMajor());
-		System.out.print("£¬Ñ§Ôº£º" + stu2.getStuCollege());
-		System.out.print("£¬Ñ§Ğ££º" + stu2.getStuUniversity());
+		System.out.print("å§“åï¼š" + stu2.getStuName());
+		System.out.print("ï¼Œæ€§åˆ«ï¼š" + stu2.getStuSex());
+		System.out.print("ï¼Œå¹´é¾„ï¼š" + stu2.getStuAge());
+		System.out.print("ï¼Œä¸“ä¸šï¼š" + stu2.getStuMajor());
+		System.out.print("ï¼Œå­¦é™¢ï¼š" + stu2.getStuCollege());
+		System.out.print("ï¼Œå­¦æ ¡ï¼š" + stu2.getStuUniversity());
 		System.out.println();
 
-		System.out.print("ĞÕÃû£º" + stu3.getStuName());
-		System.out.print("£¬ĞÔ±ğ£º" + stu3.getStuSex());
-		System.out.print("£¬ÄêÁä£º" + stu3.getStuAge());
-		System.out.print("£¬×¨Òµ£º" + stu3.getStuMajor());
-		System.out.print("£¬Ñ§Ôº£º" + stu3.getStuCollege());
-		System.out.print("£¬Ñ§Ğ££º" + stu3.getStuUniversity());
+		System.out.print("å§“åï¼š" + stu3.getStuName());
+		System.out.print("ï¼Œæ€§åˆ«ï¼š" + stu3.getStuSex());
+		System.out.print("ï¼Œå¹´é¾„ï¼š" + stu3.getStuAge());
+		System.out.print("ï¼Œä¸“ä¸šï¼š" + stu3.getStuMajor());
+		System.out.print("ï¼Œå­¦é™¢ï¼š" + stu3.getStuCollege());
+		System.out.print("ï¼Œå­¦æ ¡ï¼š" + stu3.getStuUniversity());
 		System.out.println();
 	}
 }
